@@ -1,0 +1,75 @@
+.Header-container {
+  background: #2c0e3a;
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.match-game-logo {
+  margin-left: 30px;
+  height: 90%;
+  width: 180px;
+}
+
+.game-details-con {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.game-details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+
+.detail-type {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.detail {
+  color: #fec653;
+  font-size: 22px;
+}
+
+.timer-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .Header-container {
+    height: 10vh;
+    padding: 10px;
+  }
+  .match-game-logo {
+    width: 140px;
+    margin-left: 10px;
+    height: 86%;
+  }
+  .game-details-con {
+    margin-right: 10px;
+  }
+  .game-details {
+    margin-right: 10px;
+  }
+  .detail-type {
+    font-size: 14px;
+    margin-right: 8px;
+  }
+  .detail {
+    font-size: 16px;
+  }
+  .timer-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}

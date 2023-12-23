@@ -1,0 +1,26 @@
+.thumbnail-item {
+  list-style-type: none;
+  margin: 20px;
+}
+
+.thumbnail-img {
+  height: 160px;
+  width: 160px;
+  border-radius: 6px;
+}
+
+.thumbnail-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .thumbnail-item {
+    margin: 10px;
+  }
+  .thumbnail-img {
+    height: 100px;
+    width: 100px;
+  }
+}
